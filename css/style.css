@@ -1,9 +1,13 @@
+
+
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
-  
-}
 
+}
+.body{
+  background-color: rgba(255, 255, 255, 0.658);
+}
 .special{
   color: pink;
 }
@@ -48,7 +52,7 @@ body {
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 #all-products {
   display: grid;
@@ -62,7 +66,7 @@ body {
 .single-product {
   padding: 10px;
   transition: 0.6s;
-  color: gray;
+  
 }
 .single-product:hover {
   box-shadow: 5px 5px 7px rgba(10, 2, 2, 0.212);
