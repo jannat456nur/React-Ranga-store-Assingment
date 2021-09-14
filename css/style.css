@@ -8,6 +8,7 @@ body {
 .body{
   background-color: rgba(255, 255, 255, 0.658);
 }
+
 .special{
   color: pink;
 }
@@ -43,16 +44,17 @@ body {
 
 .search-box {
   border: 1px solid rgb(0, 4, 7);
-  width: 281px;
+  width: 262px;
   border-radius: 5px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 25px;
   border-right: none;
 }
-.search-button {
-  padding: 10px 50px;
+#search-button {
+  /* padding: 10px 50px; */
   border-radius: 25px;
-  margin-left: 20px;
+  /* margin-left: 30px; */
+  /* margin-right: 50px; */
 }
 #all-products {
   display: grid;
