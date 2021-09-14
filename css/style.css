@@ -25,10 +25,10 @@ body {
   border: none;
 }
 .jannat-btn-primary{
-  background-color: gray;
+  background-color: black;
 }
 .jannat-btn-success{
-  background-color: gray;
+  background-color: black;
   color: white;
 }
 .jannat-btn-danger{
@@ -36,8 +36,8 @@ body {
   color: white;
 }
 .product{
-  background-color: rgba(128, 128, 128, 0.185);
-  /* color: white; */
+  background-color: rgba(0, 0, 0, 0.74);
+  color: white;
   margin: 20px;
   border-radius: 10px;
 }
@@ -53,6 +53,7 @@ body {
 #search-button {
   /* padding: 10px 50px; */
   border-radius: 25px;
+  /* color: white; */
   /* margin-left: 30px; */
   /* margin-right: 50px; */
 }
