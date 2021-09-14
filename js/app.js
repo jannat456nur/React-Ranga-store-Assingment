@@ -1,4 +1,5 @@
 
+
 // load data
 const loadProducts = () => {
   const url = `https://fakestoreapi.com/products`;
@@ -21,7 +22,7 @@ const showProducts = (products) => {
       </div>
       <h3>${product.title}</h3>
       <p>Category: ${product.category}</p>
-      <p>rate: ${product.rating.rate}</p>
+      <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> ${product.rating.rate}</p>
       <p>count: ${product.rating.count}</p>
       <h2>Price: $ ${product.price}</h2>
       <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn jannat-btn-success">add to cart</button>
@@ -126,4 +127,3 @@ const updateTotal = () => {
   // console.log(grandTotal)
   document.getElementById("total").innerText = grandTotal;
 };
-

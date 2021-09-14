@@ -36,7 +36,7 @@ body {
 }
 .product{
   background-color: rgba(128, 128, 128, 0.185);
-  color: white;
+  /* color: white; */
   margin: 20px;
   border-radius: 10px;
 }
@@ -52,7 +52,7 @@ body {
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
-  margin-left: 25px;
+  margin-left: 20px;
 }
 #all-products {
   display: grid;
@@ -69,7 +69,7 @@ body {
   
 }
 .single-product:hover {
-  box-shadow: 5px 5px 7px rgba(10, 2, 2, 0.212);
+  box-shadow: 5px 5px 7px rgba(10, 2, 2, 0.418);
   border-radius: 10px;
 }
 .product-image {
@@ -87,17 +87,29 @@ body {
 .cart-main {
   padding-right: 30px;
 }
+/* footer style */
 .footer{
   height: 50px;
-  width: 100%;
+  width: 110%;
   background-color: black;
   color: white; 
    display: flex;
    justify-content: space-around;
 }
-.icons{
-  display: flex;
-  padding: 10px;
+.fa-whatsapp{
+color: #075e54;
+}
+.fa-instagram{
+color: #8a3ab9;
+}
+.fa-twitter{
+color: #1DA1F2;
+}
+.fa-facebook{
+color: 	#4267B2;
+}
+.fas{
+  color: orange;
 }
 /* meadia query */
 @media only screen and (max-width: 768px) {
